@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         px: '!',
-        token: 'ODk1NTI0Mzg3MDUzMjQ4NTUz.YV50Ew.sSgw-DNC8QwHMTiqL2BC3zs15V8',
+        token: '',
         playing: 'Cobold Dungeon'
     },
 
