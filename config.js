@@ -1,8 +1,8 @@
 module.exports = {
     app: {
-        px: 'XXX',
-        token: 'XXX',
-        playing: 'by Zerio ❤️'
+        px: '!',
+        token: 'ODk1NTI0Mzg3MDUzMjQ4NTUz.YV50Ew.sSgw-DNC8QwHMTiqL2BC3zs15V8',
+        playing: 'Cobold Dungeon'
     },
 
     opt: {
@@ -13,6 +13,12 @@ module.exports = {
         },
         maxVol: 100,
         loopMessage: false,
-        discordPlayer: {}
+        discordPlayer: {
+            ytdlOptions: {
+                quality: 'highestaudio', // Fix for EPIPE error
+                highWaterMark: 1 << 25 // Fix for Aborted error
+            }
+        }
+
     }
 };
